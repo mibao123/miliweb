@@ -1,0 +1,52 @@
+
+
+.container {
+    background-color: #f4faf2;
+}
+
+/*logo*/
+img.carousel-inner.img-responsive.img-rounded.logo {
+    width: 60%;
+    height: 60%;
+    margin: 5px 100px;
+}
+
+/* images*/
+img.carousel-inner.img-responsive.img-rounded {
+    width: 65%;
+    height: 65%;
+    margin: 0 80px;
+}
+
+/*welcome text*/
+.row.welcome-text {
+    margin: 10px 5px 5px;
+}
+/*welcome text <hr>*/
+hr.center-block {
+    border-top: 2px solid #7bcc52;
+}
+/*welcome text <span>*/
+span.label.text-center.center-block.welcome-text {
+    color: #7bcc52;
+    padding-top: 10px;
+}
+
+/*info*/
+.row.info {
+    margin-bottom:25px;
+}
+span.label.text-center.center-block.info {
+    background-color: #7bcc52;
+    margin: 0 50px;
+    height: 18px;
+}
+
+/*click*/
+.row.click {
+    margin-bottom:25px;
+}
+/*click <span>*/
+span.label.text-center.center-block.click {
+    background-color: #7bcc52;margin: 0 130px;padding: 8px 0;
+}

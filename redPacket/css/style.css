@@ -1,0 +1,267 @@
+input[type=button] {
+  -webkit-appearance: none;
+  outline: none;
+}
+.width {
+  min-width: 3.2rem;
+  max-width: 6.4rem;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+img {
+  display: block;
+}
+.zuc {
+  width: 100%;
+}
+.zuc img {
+  width: 100%;
+}
+.register {
+  width: 100%;
+  height: 3.05rem;
+  background: #ff4225;
+}
+.register label {
+  width: 5.3rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  margin: 0 auto;
+  margin-bottom: 0.3rem;
+  display: block;
+  color: #411700;
+  font-size: 0.24rem;
+}
+.register label span {
+  width: 3.9rem;
+  height: 0.6rem;
+  background: #fff3b9;
+  display: block;
+  float: right;
+  border: 0.05rem solid #411700;
+  border-radius: 0.3rem;
+  position: relative;
+}
+.register label span input {
+  background: none;
+  border: none;
+  text-indent: 0.1rem;
+  font-size: 0.24rem;
+  color: #656665;
+}
+.register label span #Verification {
+  width: 0.9rem;
+  height: 0.4rem;
+  background: #5f96f3;
+  line-height: 0.4rem;
+  float: right;
+  color: #fff;
+  border-radius: 0.3rem;
+  position: absolute;
+  right: 0.1rem;
+  top: 0.1rem;
+}
+.register .btnBox {
+  width: 5.3rem;
+  height: 0.72rem;
+  margin: 0 auto;
+}
+.register .btnBox span {
+  display: block;
+}
+.register .btnBox .registerBtn {
+  width: 2.95rem;
+  height: 0.72rem;
+  background: url(../img/redPack-btn1.png);
+  background-size: 100%;
+  float: left;
+}
+.register .btnBox .downloadApp {
+  width: 1.83rem;
+  height: 0.72rem;
+  background: url(../img/redPack-btn2.png);
+  background-size: 100%;
+  float: right;
+}
+.erroTk {
+  width: 2.8rem;
+  height: 0.6rem;
+  display: none;
+  background: #333;
+  border-radius: 0.3rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -1.4rem;
+  margin-top: -0.3rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.6rem;
+  opacity: 0;
+}
+.tkanim {
+  animation: tkAnimation 2s;
+  -moz-animation: tkAnimation 2s;
+  /* Firefox */
+  -webkit-animation: tkAnimation 2s;
+  /* Safari and Chrome */
+  -o-animation: tkAnimation 2s;
+  /* Opera */
+  display: block;
+}
+@keyframes tkAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* Firefox */
+@-moz-keyframes tkAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* Safari and Chrome */
+@-webkit-keyframes tkAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* Opera */
+@-o-keyframes tkAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.miliTitle p {
+  width: 100%;
+  height: 0.6rem;
+  background: #6ac20b;
+  line-height: 0.6rem;
+  text-align: center;
+  font-size: 0.3rem;
+  color: #fff;
+}
+.miliQuestion {
+  width: 100%;
+  height: 1.5rem;
+  border-bottom: 1px solid #f5f5f5;
+}
+.miliQuestion div {
+  width: 50%;
+  height: 1.5rem;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 0.2rem;
+}
+.miliQuestion div a {
+  color: #333;
+}
+.miliQuestion div i {
+  width: 0.5rem;
+  height: 0.5rem;
+  display: block;
+  margin: 0 auto;
+  padding-top: 0.4rem;
+  font-size: 0.4rem;
+}
+.miliQuestion div:first-child {
+  border-right: 1px solid #f5f5f5;
+}
+.miliQuestion div:first-child i {
+  color: #ff7b52;
+}
+.miliQuestion div:last-child i {
+  color: #6ac20b;
+}
+.wenda {
+  width: 100%;
+  height: auto;
+}
+.wenda p {
+  font-size: 0.3rem;
+  padding: 0.15rem;
+}
+.wenda ul {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #f5f5f5;
+}
+.wenda ul li {
+  padding: 0.25rem 0.12rem;
+  border-bottom: 1px solid #f5f5f5;
+  position: relative;
+}
+.wenda ul li span {
+  font-size: 0.22rem;
+}
+.wenda ul li p {
+  width: 100%;
+  font-size: 0.2rem;
+  color: #999;
+  line-height: 0.4rem;
+  padding: 0;
+  display: none;
+  position: relative;
+}
+.wenda ul li::after {
+  content: "›";
+  position: absolute;
+  right: 0.32rem;
+  top: 0.05rem;
+  color: #ccc;
+  font-size: 0.5rem;
+  font-weight: 100;
+  transition: 0.4s;
+  -webkit-transition: All 0.4s;
+  -moz-transition: All 0.4s;
+  -o-transition: All 0.4s;
+  transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -moz-transform: rotate(0deg);
+  /* Firefox */
+  -webkit-transform: rotate(0deg);
+  /* Safari 和 Chrome */
+  -o-transform: rotate(0deg);
+}
+.wenda ul .xuanzhuan::after {
+  transition: All 0.4s;
+  -webkit-transition: All 0.4s;
+  -moz-transition: All 0.4s;
+  -o-transition: All 0.4s;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -moz-transform: rotate(90deg);
+  /* Firefox */
+  -webkit-transform: rotate(90deg);
+  /* Safari 和 Chrome */
+  -o-transform: rotate(90deg);
+}

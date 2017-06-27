@@ -1,0 +1,56 @@
+
+span.label.number {
+    font-size: 30px;
+    font-style: italic;
+    color: #7bcc52;
+    margin: 15px 0;
+}
+
+.slogan {
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    height: 75px;
+    background-position: center;
+    font-size: 30px;
+}
+
+.slogan span {
+    margin-top: 10px;
+}
+
+span.label.title {
+    font-size: 20px;
+    color: #000000;
+    margin: 3px 0;
+}
+
+img.center-block.carousel-inner.img-responsive.img-rounded.images {
+}
+
+.info {
+    background-color: #7bcc52;
+    color: #ffffff;
+    margin: 0 30px;
+    padding: 4px 3px 1px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.info p {
+
+}
+
+/*click*/
+.row.click {
+    margin-bottom: 25px;
+}
+
+/*click <span>*/
+span.label.text-center.center-block.click {
+    color: #000000;
+    background-color: #7bcc52;
+    margin: 60px 130px;
+    padding: 8px 0;
+    font-size: 20px;
+}
